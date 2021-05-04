@@ -82,3 +82,6 @@ endif
 
 " remapping for emmet #https://stackoverflow.com/questions/41617426/best-way-to-add-comments-in-html-closing-tag-with-vim
 :inoremap <! <!--   --><Esc>gEviW
+
+" this might cause conflicts with emmet?
+let mapleader = ","  
