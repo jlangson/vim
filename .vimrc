@@ -4,6 +4,26 @@ Plug 'https://github.com/tmhedberg/matchit' "HTML % matching
 Plug 'https://github.com/vim-scripts/closetag.vim' "close HTML tags
 Plug 'https://github.com/Townk/vim-autoclose' "autoclose (
 Plug 'https://github.com/mattn/emmet-vim/' "dope vim plugin for html
+
+"" for vim-iced - https://liquidz.github.io/vim-iced/#installation
+" One of following
+Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'junegunn/fzf'
+"Plug 'liuchengxu/vim-clap'
+
+" Requires
+Plug 'guns/vim-sexp',    {'for': 'clojure'}
+Plug 'liquidz/vim-iced', {'for': 'clojure'}
+
+
+" Enable vim-iced's default key mapping
+" This is recommended for newbies
+let g:iced_enable_default_key_mappings = v:true
+
+" Stuff I add for clojure sexp from https://github.com/junegunn/seoul256.vim.git
+Plug 'tpope/vim-sexp-mappings-for-regular-people'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 set nocompatible
