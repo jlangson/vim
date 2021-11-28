@@ -7,13 +7,13 @@ Plug 'https://github.com/mattn/emmet-vim/' "dope vim plugin for html
 
 "" for vim-iced - https://liquidz.github.io/vim-iced/#installation
 " One of following
-Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'ctrlpvim/ctrlp.vim'
 "Plug 'junegunn/fzf'
 "Plug 'liuchengxu/vim-clap'
 
 " Requires
-Plug 'guns/vim-sexp',    {'for': 'clojure'}
-Plug 'liquidz/vim-iced', {'for': 'clojure'}
+"Plug 'guns/vim-sexp',    {'for': 'clojure'}
+"Plug 'liquidz/vim-iced', {'for': 'clojure'}
 
 
 " Enable vim-iced's default key mapping
