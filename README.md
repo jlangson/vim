@@ -1,6 +1,6 @@
 Backup for my personal vim configs
 
-Make sure to clone repoo to `.vim/` NOT `vim/`
+Make sure to clone repo to `.vim/` NOT `vim/`
 make symbolic links in ~/ to .vimrc and .viminfo
 symbolic links need to use absolute paths 
 
